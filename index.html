@@ -60,17 +60,17 @@
 				<h3 class="module-title">{{ user.username}}</h3>
 				<div class="list-group list-group-flush">
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						وضعیت<span>{% if user.status.value =='active' %}<div class="dot dot-green"></div>فعال{% elif
-							user.status.value == 'limited' %}<div class="dot dot-yellow"></div>محدود{% elif
-							user.status.value == 'expired' %}<div class="dot dot-red"></div>منقضی{% else %}<div
-								class="dot dot-red"></div>مسدود{% endif %}</span>
+						وضعیت<span>{% if user.status.value =='active' %}<div class="dot dot-green"></div> اشتراک شما فعال میباشد {% elif
+							user.status.value == 'limited' %}<div class="dot dot-yellow"></div> حجم شما تمام شده {% elif
+							user.status.value == 'expired' %}<div class="dot dot-red"></div> اشتراک شما منقضی شده {% else %}<div
+								class="dot dot-black"></div> اشتراک شما غیر فعال میباشد {% endif %}</span>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						ترافیک<span>{{ user.used_traffic | bytesformat }} / {% if not user.data_limit %}∞{% else %}{{
 							user.data_limit | bytesformat }}{% endif %}</span>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						منقضی در<span id="expire"></span>
+						اشتراک شما منقضی شده در<span id="expire"></span>
 						<script>document.getElementById('expire').innerHTML = expireDateVar</script>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
@@ -249,7 +249,7 @@
 								aria-labelledby="flush-heading-apps-windows" data-bs-parent="#accordionApps">
 								<div class="accordion-body">
 									<h3>V2rayN</h3>
-									Netch - اپلیکیشن توصیه شده برای ویندوز
+									اپلیکیشن توصیه شده برای ویندوز
 
 									<div class="list-group list-group-flush">
 										<a href="https://github.com/2dust/v2rayN/releases/download/6.49/v2rayN-With-Core.zip"
@@ -461,6 +461,10 @@
 
 	.dot-red {
 		background-color: #bf1d11;
+	}
+
+	.dot-black {
+		background-color: #000000;
 	}
 
 	.dot-green {
