@@ -66,12 +66,28 @@
 								class="dot dot-black"></div> اشتراک شما غیر فعال میباشد {% endif %}</span>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
-						ترافیک<span>{{ user.used_traffic | bytesformat }} / {% if not user.data_limit %}∞{% else %}{{
+						ترافیک / حجم مصرفی<span dir="ltr">{{ user.used_traffic | bytesformat }}    /    {% if not user.data_limit %}∞{% else %}{{
 							user.data_limit | bytesformat }}{% endif %}</span>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						زمان پایان اشتراک<span id="expire"></span>
-						<script>document.getElementById('expire').innerHTML = expireDateVar</script>
+						<a dir="ltr">
+							{% if not user.expire %}
+							∞
+							{% else %}
+							{{ user.expire | datetime }}
+							{% endif %}</a>
+					</li>
+					<li class="list-group-item d-flex justify-content-between align-items-center">
+						زمان باقیمانده<span id="expire"></span>
+						<a>
+							{% if not user.expire %}
+							∞
+							{% else %}
+							{% set current_timestamp = now().timestamp() %}
+							{% set remaining_days = ((user.expire - current_timestamp) // (24 * 3600)) %}
+							{{ remaining_days | int }} روز
+							{% endif %}</a>
 					</li>
 					<li class="list-group-item d-flex justify-content-between align-items-center">
 						<a href="https://t.me/m4np1" target="_blank" class="link-dark" rel="noopener noreferrer">چت
@@ -108,7 +124,7 @@
 									<h3>V2Box</h3>
 									اپلیکیشن توصیه شده برای IOS 14+
 									<div class="list-group list-group-flush">
-										<a href="https://apps.apple.com/us/app/streisand/id6450534064" target="_blank"
+										<a href="https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690" target="_blank"
 											class="link list-group-item list-group-item-action">
 											<span>دانلود از اپ استور</span>
 											<div class="link-icon">
