@@ -471,7 +471,7 @@
 							<script>
 								document.addEventListener('DOMContentLoaded', function () {
 									const hosts = [
-										{ alias: "Host1", ip: "8.8.8.8", port: 443 },
+										{ alias: "Google", ip: "8.8.8.8", port: 443 }
 									];
 
 									const resultsDiv = document.getElementById('results');
@@ -494,7 +494,6 @@
 										resultsDiv.appendChild(resultDiv);
 
 										const startTime = performance.now();
-
 										try {
 											await fetchWithTimeout(`http://${host.ip}:${host.port}`, { mode: 'no-cors' }, 5000);
 											const endTime = performance.now();
@@ -518,19 +517,17 @@
 									const pingHosts = async () => {
 										for (const host of hosts) {
 											await pingHost(host);
-											await sleep(100);
+											await sleep(300);
 										}
 									};
 
 									pingHosts();
 								});
-
 							</script>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 		</div>
 	</main>
 </body>
