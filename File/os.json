@@ -16,16 +16,6 @@
           "videoLink": "https://example.com/streisand-video"
         },
         {
-          "name": "Shadowrocket",
-          "price": "2.99",
-          "logo": "https://raw.githubusercontent.com/m-a-np/template/main/icons/shadowrocket.png",
-          "description": "A rule-based proxy utility client for iOS.",
-          "faDescription": "Shadowrocket یک ابزار پروکسی قانون‌محور برای iOS است.",
-          "configLink": "https://example.com/shadowrocket-config",
-          "downloadLink": "https://apps.apple.com/us/app/shadowrocket/id932747118",
-          "videoLink": "https://example.com/shadowrocket-video"
-        },
-        {
           "name": "V2box",
           "price": "0",
           "logo": "https://raw.githubusercontent.com/m-a-np/template/main/icons/v2box.png",
