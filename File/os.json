@@ -9,7 +9,6 @@
           "name": "Streisand",
           "price": "0",
           "logo": "https://raw.githubusercontent.com/m-a-np/template/main/icons/streisand.jpg",
-          "description": "Streisand sets up a new server running a wide variety of anti-censorship software.",
           "configLink": "streisand://import/{url}",
           "downloadLink": "https://apps.apple.com/us/app/streisand/id6450534064",
           "videoLink": "https://example.com/streisand-video"
