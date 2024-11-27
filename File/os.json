@@ -9,6 +9,8 @@
           "name": "Streisand",
           "price": "0",
           "logo": "https://raw.githubusercontent.com/m-a-np/template/main/icons/streisand.jpg",
+          "description": "",
+          "faDescription": "",
           "configLink": "streisand://import/{url}",
           "downloadLink": "https://apps.apple.com/us/app/streisand/id6450534064",
           "videoLink": "https://example.com/streisand-video"
