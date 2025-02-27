@@ -137,9 +137,7 @@
             "downloadLink": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip",
             "tutorialSteps": [
               {
-                "stepText": "Step 1: Download and install the V2box app from the Google Play Store.",
-                "faStepText": "مرحله ۱: برنامه وی تو باکس را از پلی استور دانلود و نصب کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/File/V2rayn.mp4"
+                "stepVideo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/File/V2rayn.mp4"
          
               }
             ]
