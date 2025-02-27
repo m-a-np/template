@@ -137,7 +137,7 @@
             "downloadLink": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip",
             "tutorialSteps": [
               {
-                "stepVideo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/File/V2rayn.mp4"
+                "downloadLink": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/File/V2rayn.mp4"
          
               }
             ]
