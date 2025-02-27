@@ -134,13 +134,7 @@
             "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/v2rayN.png",
             "description": "A Windows V2Ray client with GUI support.",
             "faDescription": "v2rayN یک کلاینت V2Ray برای ویندوز با پشتیبانی از رابط کاربری است.",
-            "downloadLink": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip",
-            "tutorialSteps": [
-              {
-                "downloadLink": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/File/V2rayn.mp4"
-         
-              }
-            ]
+            "downloadLink": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip"
           }
         ]
       }
