@@ -3,12 +3,12 @@
       {
         "name": "اپل",
         "engName": "iOS",
-        "osLogo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/Apple_logo_black.svg",
+        "osLogo": "https://httpsprivacypath.top/icons/Apple_logo_black.svg",
         "apps": [
           {
             "name": "Streisand",
             "price": "0",
-            "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/streisand.jpg",
+            "logo": "https://httpsprivacypath.top/icons/streisand.jpg",
             "description": "Streisand sets up a new server running a wide variety of anti-censorship software.",
             "faDescription": "استرایزند یک سرور جدید با نرم‌افزارهای متنوع ضد سانسور راه‌اندازی می‌کند.",
             "configLink": "streisand://import/{url}",
@@ -17,29 +17,29 @@
               {
                 "stepText": "Step 1: Download and install the Streisand app from the App Store.",
                 "faStepText": "مرحله ۱: برنامه استرایزند را از اپ استور دانلود و نصب کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/streisand/1.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/streisand/1.jpg"
               },
               {
                 "stepText": "Step 2: Inside the share link, click on 'Add to App'.",
                 "faStepText": "مرحله ۲: داخل لینک اشتراک بر روی افزودن به برنامه کلیک کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/streisand/2.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/streisand/2.jpg"
               },
               {
                 "stepText": "Step 3: Choose your server location.",
                 "faStepText": "مرحله ۳: مکان سرور خود را انتخاب کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/streisand/3.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/streisand/3.jpg"
               },
               {
                 "stepText": "Step 4: Click on the connect button (blue).",
                 "faStepText": "مرحله ۴: بر روی دکمه اتصال (آبی) کلیک کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/streisand/4.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/streisand/4.jpg"
               }
             ]
           },
           {
             "name": "V2box",
             "price": "0",
-            "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/v2box.png",
+            "logo": "https://httpsprivacypath.top/icons/v2box.png",
             "description": "A cross-platform V2Ray client.",
             "faDescription": "V2Box یک کلاینت V2Ray چندسکویی است.",
             "configLink": "v2box://install-sub?url={url}&name=SUBnew",
@@ -48,17 +48,17 @@
               {
                 "stepText": "Step 1: Download and install the V2box app from the App Store.",
                 "faStepText": "مرحله ۱: برنامه وی تو باکس را از اپ استور دانلود و نصب کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2box/1.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2box/1.jpg"
               },
               {
                 "stepText": "Step 2: Inside the share link, click on 'Add to App'.",
                 "faStepText": "مرحله ۲: داخل لینک اشتراک بر روی افزودن به برنامه کلیک کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2box/2.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2box/2.jpg"
               },
               {
                 "stepText": "Step 3: First, go to the configs page from the bottom menu. Then select the server and location you want. And finally, connect from the slide to connect section.",
                 "faStepText": "مرحله ۳: ابتدا از منو پایین وارد صفحه configs شوید. سپس سرور و لوکیشن مورد نظر را انتخاب کرده. و درنهایت از بخش slide to connect متصل شوید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2box/3.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2box/3.jpg"
               }
             ]
           }
@@ -67,12 +67,12 @@
       {
         "name": "اندروید",
         "engName": "Android",
-        "osLogo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/Android_logo_2019.svg.png",
+        "osLogo": "https://httpsprivacypath.top/icons/Android_logo_2019.svg.png",
         "apps": [
           {
             "name": "V2rayNG",
             "price": "0",
-            "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/v2rayNG.png",
+            "logo": "https://httpsprivacypath.top/icons/v2rayNG.png",
             "description": "A V2Ray client for Android devices.",
             "faDescription": "V2rayNG یک کلاینت V2Ray برای دستگاه‌های اندرویدی است.",
             "configLink": "v2rayng://install-config?url={url}",
@@ -81,24 +81,24 @@
               {
                 "stepText": "Step 1: Download and install the v2rayng app from the Google Play Store.",
                 "faStepText": "مرحله ۱: برنامه v2rayng را از پلی استور دانلود و نصب کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2rayng/1.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2rayng/1.jpg"
               },
               {
                 "stepText": "Step 2: Inside the share link, click on 'Add to App'.",
                 "faStepText": "مرحله ۲: داخل لینک اشتراک بر روی افزودن به برنامه کلیک کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2rayng/2.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2rayng/2.jpg"
               },
               {
                 "stepText": "Step 3: First, go to the configs page from the bottom menu. Then select the server you want. And finally, connect from the bottom of the page.",
                 "faStepText": "مرحله  ۳ : ابتدا سرور مورد نظر را انتخاب کرده. سپس از طریق دکمه پایین صفحه متصل شوید",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2rayng/3.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2rayng/3.jpg"
               }
             ]
           },
           {
             "name": "V2box",
             "price": "0",
-            "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/v2box.png",
+            "logo": "https://httpsprivacypath.top/icons/v2box.png",
             "description": "A cross-platform V2Ray client.",
             "faDescription": "V2Box یک کلاینت V2Ray چندسکویی است.",
             "configLink": "v2box://install-sub?url={url}&name=SUBnew",
@@ -107,17 +107,17 @@
               {
                 "stepText": "Step 1: Download and install the V2box app from the Google Play Store.",
                 "faStepText": "مرحله ۱: برنامه وی تو باکس را از پلی استور دانلود و نصب کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2box-android/1.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2box-android/1.jpg"
               },
               {
                 "stepText": "Step 2: Inside the share link, click on 'Add to App'.",
                 "faStepText": "مرحله ۲: داخل لینک اشتراک بر روی افزودن به برنامه کلیک کنید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2box-android/2.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2box-android/2.jpg"
               },
               {
                 "stepText": "Step 3: First, go to the configs page from the bottom menu. Then select the server and location you want. And finally, connect from the connect Button.",
                 "faStepText": "مرحله ۳: ابتدا از منو پایین وارد صفحه configs شوید. سپس سرور و لوکیشن مورد نظر را انتخاب کرده. و درنهایت با زدن روی دکمه کانکت متصل شوید.",
-                "stepImage": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/tutorials/v2box-android/3.jpg"
+                "stepImage": "https://httpsprivacypath.top/tutorials/v2box-android/3.jpg"
               }
             ]
           }
@@ -126,12 +126,12 @@
       {
         "name": "ویندوز",
         "engName": "Windows",
-        "osLogo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/Windows_logo_2021.svg.png",
+        "osLogo": "https://httpsprivacypath.top/icons/Windows_logo_2021.svg.png",
         "apps": [
           {
             "name": "V2rayN",
             "price": "0",
-            "logo": "https://raw.githubusercontent.com/m-a-np/template/refs/heads/main/icons/v2rayN.png",
+            "logo": "https://httpsprivacypath.top/icons/v2rayN.png",
             "description": "A Windows V2Ray client with GUI support.",
             "faDescription": "v2rayN یک کلاینت V2Ray برای ویندوز با پشتیبانی از رابط کاربری است.",
             "downloadLink": "https://httpsprivacypath.top/Windows.zip"
